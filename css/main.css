@@ -1,0 +1,453 @@
+html{
+	text-size-adjust: 100%;
+	-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;text-size-adjust:100%;font-size:62.5%
+}
+body{
+	font-family:"ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro",
+"メイリオ", "Meiryo","Hiragino Mincho Pro","Avenir","Corbel","Osaka","MS Pゴシック"
+}
+*{
+	box-sizing: border-box;
+}
+ul{
+	list-style: none;
+}
+header{
+	height:100px;
+	width:100%;
+	padding-left:20px;
+	position:fixed;
+	top:0px;
+	z-index: 100;
+	background-color: rgba(255,255,255,0.8);
+
+
+}
+
+
+
+img{
+	max-width: 100%;
+    height: auto;
+    border: 0;
+    vertical-align: top;
+    display: block;
+    margin:0 auto;
+    padding-top: 25px;
+
+}
+.header-logo1{
+	
+	padding-top:32px;
+	float:left;
+}
+
+
+.header-logo2{
+	/*float: left;*/
+	position: relative;
+
+	padding-top:26px;
+	left:40.5%;
+}
+
+.col-6{
+	text-align: center;
+}
+.left-pack{
+	float: right;
+	padding-top: 20px;
+}
+.header-reservation{
+	width: 142px;
+	height: 90px;
+	float: right;
+}	
+.header-menu{
+	text-align: center;
+}
+
+.engp{
+	font-family: "Hiragino Mincho Pro";
+}
+
+.eng{
+
+	font-family: "Hiragino Mincho Pro";
+	background-color: #ccb76f;
+	letter-spacing: .07em;
+	color:white;
+	width: 142px;
+	height: 30px;
+	
+	
+	
+	padding-top: 7px;
+	margin-bottom: 10px;
+}
+.eng p{
+	font-size: 12.5px;
+	text-align: center;
+}
+.jpn p{
+	height: 18px;
+	font-size: 11px;
+	text-align: center;
+	padding-top: 3px;
+	letter-spacing: .08em;
+	padding-left: 15px;
+}
+
+
+
+.menu-icon {
+  color: #333333;
+
+  font-size: 40px;
+
+  display: block;
+  padding-bottom: 10px;
+
+}
+.header-menu p{
+	font-size: 11px;
+
+
+	height:18px;
+
+	letter-spacing: .1em;
+}
+
+
+
+main{
+	padding-top:80px;
+}
+.section-title{
+	font-size: 36px;
+	margin-bottom:30px;
+	text-align: center;
+}
+.section-ex{
+	font-family: "Open Sans";
+	font-size: 14px;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+/*画像が収まりきらないときは、検証のpixelを調べて合わせる*/
+.carousel-item img{
+	height: 797px;
+}
+
+.container {
+	padding: 40px 20px 50px 20px;
+	text-align: center;
+}
+.container h3{
+	font-family: "Hiragino Mincho Pro";
+	font-size:20px;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+.container p{
+	margin-bottom: 20px;
+	font-family: "Open Sans";
+	font-size: 14px;
+}
+
+.season{
+	padding: 100px;
+	text-align: center;
+}
+
+.season-photo img{
+	margin: 0;
+	max-width: 100%;
+	height:auto;
+	display: block;
+	text-align: center;
+	
+
+}
+.season-photo{
+	position: relative;
+}
+
+.col-4{
+	padding: 0;
+	text-align: center;
+	display: block;
+
+}
+.label-food{
+	width: 48px;
+	height: 24px;
+	font-size: 14px;
+	text-align: center;
+	background-color: #DD809B;
+	color:white;
+	position: absolute;
+	bottom:0;
+	left: 0;
+	z-index: 2;
+}
+
+
+.label-nature{
+	width: 90px;
+	height: 24px;
+	font-size: 14px;
+	text-align: center;
+	background-color: #9DB978;
+	color:white;
+	position: absolute;
+	bottom:0;
+	left: 0;
+	z-index: 2;
+}
+p.shoulder{
+	font-size: 14px;
+	margin-bottom: 0;
+}
+p.period{
+	font-size: 13px;
+	color: #7B7B7B;
+	margin-bottom: 0;
+}
+h3.title.serif{
+	font-size: 18px;
+
+}
+.season-list__body{
+	text-align: left;
+	margin: 10px 0 20px 0;
+}
+
+span.more{
+	font-size: 16px;
+	text-align: center;
+	padding-bottom: 10px;
+
+}
+.more{
+	border-bottom: solid 1px;
+
+}
+.btn-more{
+	margin:50px 35px;
+	padding: 8px 16px;
+	text-align: center;
+}
+
+.tp-section{
+	border-top: solid 1px #c9c9c9;
+	border-bottom: solid 1px #c9c9c9;
+	width: 100%;
+	height: auto;
+}
+.tp-section-middle{
+	max-width: 1012px;
+	width: 100%;
+	margin:100px auto;
+}
+.tp-section img{
+	max-width: 100%;
+	height: auto;
+	padding-top: 50px;
+}
+
+.tp-contents{
+	width: 50%;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	padding: 0 20px;
+}
+
+
+
+.tp-contents-bottom{
+	width: 100%;
+	padding-top:40px;
+	margin-bottom: 130px;
+}
+.tp-contents-bottom img{
+	display: inline-block;
+	float: left;
+	padding-top: 0;
+	width: 30%;
+
+}
+
+.tp-contents-text{
+	display: inline-block;
+	float: left;
+	padding-left: 20px;
+	text-align: left;
+	width: 70%;
+}
+.tp-contents-text p{
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+.tp-contents-text h1{
+	font-size: 14px;
+	margin-bottom: 15px;
+	font-weight: 700;
+}
+
+
+.diningSweets{
+	padding: 100px;
+	border-bottom: solid 1px #c9c9c9;
+}
+.clear{
+	clear:left;
+}
+.place{
+	width: 50%;
+	float: left;
+	padding: 20px;
+}
+.places{
+	max-width: 1012px;
+	margin:0 auto;
+	width: 100%;	
+}
+.places h3{
+	margin-top: 20px;
+	font-size: 18px;
+	font-family: "Hiragino Mincho ProN";
+	text-align: center;
+}
+.places p{
+	color: #b58702;
+	font-size: 12px;
+	text-align: center;
+}
+.idx-news{
+	max-width: 1060px;
+	height: auto;
+	margin: 100px auto;
+	text-align: left;
+	padding: 0 20px;
+	
+}
+.news-contents{
+	border-bottom: solid 1px #c9c9c9;
+}
+.news-left{
+	display: inline-block;
+	
+	font-size: 14px;
+	padding: 40px 0 20px;
+}
+.news-left span{
+	color: #7B7B7B;
+	font-size: 12px;
+	margin-left: 30px;
+}
+.news-right{
+	padding: 40px 0 20px 150px;
+	font-size: 14px;
+	color: #b58702;
+	display: inline-block;
+
+
+}
+
+footer{
+	padding: 20px 0 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
+.footer-logo{
+	padding-bottom: 30px;
+}
+.htp{
+	padding-bottom: 40px;
+
+}
+.htp li {
+	padding: 0 13px;
+	display: inline-block;
+}
+.htp img{
+	margin:0;
+	padding: 0;
+}
+footer p{
+	margin-top: 20px;
+	color: #7B7B7B;
+}
+.company-info li{
+	display: inline-block;
+}
+
+
+
+
+
+#humberger {
+  position: relative;
+ 
+  display: inline-block;
+  box-sizing: border-box;
+  width: 40px;
+  height: 30px;
+  /*margin: 0 15px;*/
+  text-align: center;
+
+}
+
+#humberger div {
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 40px;
+  background-color: #555555;
+  border-radius: 2px;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+
+}
+
+#humberger div:nth-of-type(1) {
+  top: 0;
+}
+#humberger div:nth-of-type(2) {
+  top: 14px;
+}
+#humberger div:nth-of-type(3) {
+  bottom: 0;
+}
+
+.row-0{
+    margin-left:0px;
+    margin-right:0px;
+ 
+    > div{
+        padding-right:0px;
+        padding-left:0px;
+    }
+}
+.row-20{
+    margin-left:-10px;
+    margin-right:-10px;
+ 
+    > div{
+        padding-right:10px;
+        padding-left:10px;
+    }
+}
+
+
+
+
+
+
+@media(max-width: 767px){
+
+}
